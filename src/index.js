@@ -1,6 +1,7 @@
-import "./styles.css"
+import "./styles.css";
 
-const BASE_URL = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/";
+const BASE_URL =
+    "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/";
 const API_KEY = process.env.ID;
 
 function getLocation(e) {
